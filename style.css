@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  width: 800px;
+  height: 800px;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  /* margin-bottom: 30px; */
+}
+
+h1 {
+  font-weight: 500;
+  color: #2c2d36;
+  font-size: 5.3em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  /* margin-top: 20px; */
+  text-transform: uppercase;
+  color: #2c2d36;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.7em;
+  font-weight: 500;
+}
+p {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: auto;
+  font-size: 1.6em;
+  background-color: #2c2d36;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  /* margin-bottom: 30px;
+  margin-top: 40px; */
+}
